@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkaureliocv=self.webpackChunkaureliocv||[]).push([[205],{205:function(n,a,c){c.r(a),c.d(a,{default:function(){return r}});c(791);var e=c(184);function r(n){n.showColor;var a=n.onChangeColor;return(0,e.jsx)(e.Fragment,{children:(0,e.jsx)("main",{className:"main__contact ".concat(a())})})}}}]);
+//# sourceMappingURL=205.3685392e.chunk.js.map
