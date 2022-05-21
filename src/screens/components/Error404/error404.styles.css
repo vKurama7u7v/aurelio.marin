@@ -1,0 +1,61 @@
+main.main__error404 {
+    height: 100%;
+    min-height: 100vh;
+}
+
+section.section__error404 {
+    background: #121212;
+    color: var(--blanco);
+    font-family: var(--Font-Oxanium);
+}
+
+section.section__error404 .error404 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+section.section__error404 .error404 .bg-error404 {
+    color: rgb(41, 41, 41, .8);
+
+    font-weight: 700;
+    font-size: 400px;
+
+    position: absolute;
+    z-index: 0;
+}
+
+section.section__error404 .error404 .content__error404 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+section.section__error404 .error404 .content__error404 h3 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: .8em;
+}
+
+section.section__error404 .error404 .content__error404 a {
+    padding: 1.2em 4em;
+    border-radius: 3px;
+    background: var(--primary);
+    color: var(--blanco);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    transition: all .25s ease-in-out;
+}
+
+section.section__error404 .error404 .content__error404 a:hover {
+    letter-spacing: .5px;
+    box-shadow: 0px 0px 20px var(--primary);
+}
